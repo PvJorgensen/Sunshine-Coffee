@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { CookieBanner } from './components/cookie banner/CookieBanner'
+import { Desc } from './components/desc/Desc'
+import { Navbar } from './components/nav/Navbar'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-
+    <CookieBanner></CookieBanner>
+    <Navbar></Navbar>
+    <Desc></Desc>
     </>
   )
 }

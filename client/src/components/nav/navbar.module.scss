@@ -1,0 +1,26 @@
+.Navbar {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 30px;
+    div {
+        justify-self: center;
+        align-self: center;
+        margin-left: 25%;
+        transform: translateX(-25%);
+        h2 {
+            color: white;
+            font-size: 2rem;
+        }
+    }
+    ul {
+        align-self: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        li {
+            color: white;
+            list-style: none;
+        }
+    }
+}
