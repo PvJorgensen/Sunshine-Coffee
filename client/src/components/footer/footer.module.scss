@@ -1,0 +1,16 @@
+.footerWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        color: white;
+    }
+    p {
+        color: white;
+        margin: 5px;
+        font-size: 0.8rem;
+    }
+}

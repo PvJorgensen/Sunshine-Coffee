@@ -1,0 +1,26 @@
+.testiWrapper {
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px;
+    h2 {
+        text-align: center;
+        font-size: 5rem;
+        font-family: "Licorice";
+        font-weight: 100;
+    }
+    .testiGrid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        h3 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            max-width: 250px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+

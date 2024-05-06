@@ -1,0 +1,21 @@
+
+h1 {
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 25%;
+    font-family: "Licorice";
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.blur {
+    background-image: url('../../assets/Images/coffee-beans.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.3;
+}

@@ -1,16 +1,12 @@
 import './App.css'
-import { CookieBanner } from './components/cookie banner/CookieBanner'
-import { Desc } from './components/desc/Desc'
-import { Navbar } from './components/nav/Navbar'
+import { AppRouter } from './components/approuter/AppRouter'
 
 
 function App() {
 
   return (
     <>
-    <CookieBanner></CookieBanner>
-    <Navbar></Navbar>
-    <Desc></Desc>
+    <AppRouter></AppRouter>
     </>
   )
 }

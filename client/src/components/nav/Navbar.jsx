@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './navbar.module.scss'
+import { Cart } from '../cart/Cart'
 
 export const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ export const Navbar = () => {
       <h2>Sunshine Coffee</h2>
       </div>
       <ul>
-        <li>Kurv</li>
+        <Cart />
         <li>Profile</li>
       </ul>
     </nav>
