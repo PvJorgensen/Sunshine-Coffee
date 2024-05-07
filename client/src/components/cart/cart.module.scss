@@ -1,3 +1,46 @@
-.cart {
-    background-color: red;
+.cartStyle {
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    background-color: white;
+    width: 30vw;
+    overflow: hidden;
+    z-index: 20;
+    .closer {
+        border: none;
+        font-size: 2rem;
+        background-color: white;
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+}
+
+.cartStyleClosed {
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    background-color: white;
+    width: 30vw;
+    overflow: hidden;
+    z-index: 20;
+    transform: translateX(600px);
+}
+
+.productCart {
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    padding: 20px;
+    .remover {
+        width: 20%;
+        border: none;
+        background-color: white;
+        font-size: 1rem;
+    }
+}
+.cartHead {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Licorice";
+    font-weight: 100;
 }

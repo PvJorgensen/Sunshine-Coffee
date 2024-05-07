@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 5fr 1fr;
     padding: 30px;
-    div {
+    .etellerandet {
         justify-self: center;
         align-self: center;
         margin-left: 25%;
@@ -26,4 +26,11 @@
             list-style: none;
         }
     }
+}
+
+.cartBtn {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
 }

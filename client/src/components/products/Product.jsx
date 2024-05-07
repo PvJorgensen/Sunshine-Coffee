@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import styles from './product.module.scss'
+import { CartContext } from '../context/CartContext';
 
 export const Product = () => {
     const [products, setProducts] = useState([]);
+    const { addToCart } = useContext(CartContext)
 
     useEffect(() => {
         const fetchProducts = async () => {
@@ -32,7 +34,7 @@ export const Product = () => {
                 <img src={product.image} alt="thumbnails" />
                 <p>{product.description}</p>
                 <li>Price: {product.price},00 kr.</li>
-                <button>Add to cart</button>
+                <button onClick={() => addToCart(product)}>Add to cart</button>
                 </div>
             ))}
         </div>

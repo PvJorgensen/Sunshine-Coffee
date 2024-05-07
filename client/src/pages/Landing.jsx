@@ -6,10 +6,12 @@ import { Header } from '../components/header/Header'
 import { Shopdirector } from '../components/shopdirector/Shopdirector'
 import { Testimonies } from '../components/testimonies/Testimonies'
 import { Footer } from '../components/footer/Footer'
+import { Cart } from '../components/cart/Cart'
 export const Landing = () => {
   return (
     <div>
         <CookieBanner></CookieBanner>
+        <Cart />
         <Navbar></Navbar>
         <Header></Header>
         <Desc></Desc>
